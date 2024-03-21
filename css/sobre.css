@@ -1,8 +1,8 @@
-:root{
+:root {
     --cor-base: #686d69;
     --cor-fundo: #797575;
     --cor-borda: #0a0a0a;
-    
+
 }
 
 body {
@@ -19,6 +19,7 @@ body {
 h1 {
     color: var(--cor-base);
     background-image: url(../img/body-background.png);
+    padding: 10px;
 }
 
 h2 {
@@ -32,6 +33,7 @@ figure {
     background-color: var(--cor-fundo);
     border: 1px solid #ccc;
     text-align: center;
+    padding: 15px;
     margin: 30px;
 }
 
@@ -40,7 +42,30 @@ figcaption {
     margin-top: 10px;
 }
 
-p{
+p {
     padding: 0 45px;
     text-indent: 15px;
+}
+
+#centro-distribuicao {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+#rodape {
+    color: 777;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+#rodape img {
+    margin-right: 30px;
+    vertical-align: middle;
+    width: 94px;
+}
+
+#familia-pelho {
+    float: right;
+    margin: 0 0 10px 0;
 }
