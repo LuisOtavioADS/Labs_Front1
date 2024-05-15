@@ -1,7 +1,7 @@
 :root{
     --cor-base: #333;
     --cor-menu: #036;
-    --cor-menu-lateral: rgba(85, 151, 70, 0.925);
+    --cor-menu-lateral: rgba(143, 173, 136, 0.925);
     --cor_menu_lateral_itens: rgb(164, 212, 179);
 
 }
@@ -173,4 +173,27 @@ footer {
     right: 0;
 }
 
+.menu-opcoes a:hover {
+    color: #007DC6;
+}
+
+.menu-opcoes a:active {
+    color: red;
+}
+
+.menu-departamentos li ul {
+    display: none;
+}
+
+.menu-departamentos li:hover ul {
+    display: block;
+}
+
+.menu-departamentos ul ul li {
+    background-color: var(--cor-menu-lateral);
+}
+
+.menu-departamentos li li a::before {
+    content: '- ';
+}
 
