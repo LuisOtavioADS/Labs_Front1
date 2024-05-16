@@ -96,6 +96,9 @@ header{
     margin: 10px 0;
     padding: 10px;
     width: 445px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px 1px #999;
 }
 
 .novidades {
@@ -111,6 +114,7 @@ header{
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
 }
 
 .painel a {
@@ -122,10 +126,12 @@ header{
 
 .novidades {
     background-color: #f5dcdc;
+    background-image: linear-gradient(#f5dcdc, #bebef4);
 }
 
 .mais-vendidos {
     background-color: #dcdcf5;
+    background-image: linear-gradient(#dcdcf5, #f4bebe);
 }
 
 .painel li {
@@ -133,7 +139,7 @@ header{
     vertical-align: top;
     width: 140px;
     margin: 2px;
-    padding-bottom: 10px;
+
 }
 
 footer {
